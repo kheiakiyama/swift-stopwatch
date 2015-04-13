@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
+    @IBOutlet weak var timerLabel: NSLayoutConstraint!
+    
+    var startTimer: NSTimeInterval? = nil
+    var timer: NSTimer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +29,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func startTimer(sender: AnyObject) {
+    }
+    @IBAction func stopTimer(sender: AnyObject) {
+    }
+    @IBAction func resetTimer(sender: AnyObject) {
+    }
+    
 }
 
