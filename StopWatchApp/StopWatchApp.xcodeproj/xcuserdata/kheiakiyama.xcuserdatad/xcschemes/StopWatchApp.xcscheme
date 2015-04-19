@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A99901EE1ADC006B002D95F9"
-               BuildableName = "StopWatchApp.app"
-               BlueprintName = "StopWatchApp"
-               ReferencedContainer = "container:StopWatchApp.xcodeproj">
+               BlueprintIdentifier = "A999021C1AE3EAAF002D95F9"
+               BuildableName = "StopwatchApp.app"
+               BlueprintName = "StopwatchApp"
+               ReferencedContainer = "container:StopwatchApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A99902031ADC006B002D95F9"
-               BuildableName = "StopWatchAppTests.xctest"
-               BlueprintName = "StopWatchAppTests"
-               ReferencedContainer = "container:StopWatchApp.xcodeproj">
+               BlueprintIdentifier = "A99902311AE3EAAF002D95F9"
+               BuildableName = "StopwatchAppTests.xctest"
+               BlueprintName = "StopwatchAppTests"
+               ReferencedContainer = "container:StopwatchApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A99902031ADC006B002D95F9"
-               BuildableName = "StopWatchAppTests.xctest"
-               BlueprintName = "StopWatchAppTests"
-               ReferencedContainer = "container:StopWatchApp.xcodeproj">
+               BlueprintIdentifier = "A99902311AE3EAAF002D95F9"
+               BuildableName = "StopwatchAppTests.xctest"
+               BlueprintName = "StopwatchAppTests"
+               ReferencedContainer = "container:StopwatchApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A99901EE1ADC006B002D95F9"
-            BuildableName = "StopWatchApp.app"
-            BlueprintName = "StopWatchApp"
-            ReferencedContainer = "container:StopWatchApp.xcodeproj">
+            BlueprintIdentifier = "A999021C1AE3EAAF002D95F9"
+            BuildableName = "StopwatchApp.app"
+            BlueprintName = "StopwatchApp"
+            ReferencedContainer = "container:StopwatchApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A99901EE1ADC006B002D95F9"
-            BuildableName = "StopWatchApp.app"
-            BlueprintName = "StopWatchApp"
-            ReferencedContainer = "container:StopWatchApp.xcodeproj">
+            BlueprintIdentifier = "A999021C1AE3EAAF002D95F9"
+            BuildableName = "StopwatchApp.app"
+            BlueprintName = "StopwatchApp"
+            ReferencedContainer = "container:StopwatchApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A99901EE1ADC006B002D95F9"
-            BuildableName = "StopWatchApp.app"
-            BlueprintName = "StopWatchApp"
-            ReferencedContainer = "container:StopWatchApp.xcodeproj">
+            BlueprintIdentifier = "A999021C1AE3EAAF002D95F9"
+            BuildableName = "StopwatchApp.app"
+            BlueprintName = "StopwatchApp"
+            ReferencedContainer = "container:StopwatchApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

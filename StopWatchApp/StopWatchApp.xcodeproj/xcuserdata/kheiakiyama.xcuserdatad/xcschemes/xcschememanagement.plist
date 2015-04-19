@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>StopWatchApp.xcscheme</key>
+		<key>StopwatchApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A99901EE1ADC006B002D95F9</key>
+		<key>A999021C1AE3EAAF002D95F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A99902031ADC006B002D95F9</key>
+		<key>A99902311AE3EAAF002D95F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

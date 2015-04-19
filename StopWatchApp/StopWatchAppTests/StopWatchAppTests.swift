@@ -1,15 +1,15 @@
 //
-//  StopWatchAppTests.swift
-//  StopWatchAppTests
+//  StopwatchAppTests.swift
+//  StopwatchAppTests
 //
-//  Created by kohei akiyama on 2015/04/13.
+//  Created by kohei akiyama on 2015/04/19.
 //  Copyright (c) 2015年 kheiakiyama. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class StopWatchAppTests: XCTestCase {
+class StopwatchAppTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

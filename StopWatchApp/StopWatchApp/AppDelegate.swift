@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  StopWatchApp
+//  StopwatchApp
 //
-//  Created by kohei akiyama on 2015/04/13.
+//  Created by kohei akiyama on 2015/04/19.
 //  Copyright (c) 2015年 kheiakiyama. All rights reserved.
 //
 
