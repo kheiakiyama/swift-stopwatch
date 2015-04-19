@@ -28,7 +28,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func update() {
+        
+    }
+    
     @IBAction func startTimer(sender: AnyObject) {
+        self.startTime = NSDate.timeIntervalSinceReferenceDate()
+        self.timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
     }
 
     @IBAction func stopTimer(sender: AnyObject) {
