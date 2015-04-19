@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     var startTime: NSTimeInterval? = nil
     var timer: NSTimer?
+    var elapsedTime: Double = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +38,7 @@ class ViewController: UIViewController {
     
     func update() {
         if let t = self.startTime {
-            let time: Double = NSDate.timeIntervalSinceReferenceDate() - t
+            let time: Double = NSDate.timeIntervalSinceReferenceDate() - t + self.elapsedTime
             let sec: Int = Int(time)
             let msec: Int = Int((time - Double(sec)) * 100.0)
             self.timerLabel.text = String(format: "%02d:%02d:%02d", sec/60, sec, msec)
@@ -51,12 +52,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func stopTimer(sender: AnyObject) {
-        self.timer?.invalidate()
-        self.timer = nil
+        if let t = self.startTime {
+            self.elapsedTime += NSDate.timeIntervalSinceReferenceDate() - t
+            self.timer?.invalidate()
+            self.timer = nil
+        }
         setButtonEnabled(true, stop: false, reset: true)
     }
     
     @IBAction func resetTimer(sender: AnyObject) {
+        self.elapsedTime = 0
         self.startTime = nil
         self.timerLabel.text = "00:00:00"
         setButtonEnabled(true, stop: false, reset: false)
