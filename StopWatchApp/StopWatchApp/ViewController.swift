@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setButtonEnabled(true, stop: false, reset: false)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -28,6 +29,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func setButtonEnabled(start: Bool, stop: Bool, reset: Bool) {
+        self.startButton.enabled = start
+        self.stopButton.enabled = stop
+        self.resetButton.enabled = reset
+    }
+    
     func update() {
         if let t = self.startTime {
             let time: Double = NSDate.timeIntervalSinceReferenceDate() - t
@@ -38,6 +45,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startTimer(sender: AnyObject) {
+        setButtonEnabled(true, stop: true, reset: false)
         self.startTime = NSDate.timeIntervalSinceReferenceDate()
         self.timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: Selector("update"), userInfo: nil, repeats: true)
     }
@@ -45,11 +53,13 @@ class ViewController: UIViewController {
     @IBAction func stopTimer(sender: AnyObject) {
         self.timer?.invalidate()
         self.timer = nil
+        setButtonEnabled(true, stop: false, reset: true)
     }
     
     @IBAction func resetTimer(sender: AnyObject) {
         self.startTime = nil
         self.timerLabel.text = "00:00:00"
+        setButtonEnabled(true, stop: false, reset: false)
     }
 }
 
