@@ -43,9 +43,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func stopTimer(sender: AnyObject) {
+        self.timer?.invalidate()
+        self.timer = nil
     }
     
     @IBAction func resetTimer(sender: AnyObject) {
+        self.startTime = nil
+        self.timerLabel.text = "00:00:00"
     }
 }
 
