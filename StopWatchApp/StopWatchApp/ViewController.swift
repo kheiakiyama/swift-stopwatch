@@ -29,7 +29,12 @@ class ViewController: UIViewController {
     }
 
     func update() {
-        
+        if let t = self.startTime {
+            let time: Double = NSDate.timeIntervalSinceReferenceDate() - t
+            let sec: Int = Int(time)
+            let msec: Int = Int((time - Double(sec)) * 100.0)
+            self.timerLabel.text = String(format: "%02d:%02d:%02d", sec/60, sec, msec)
+        }
     }
     
     @IBAction func startTimer(sender: AnyObject) {
